@@ -1,0 +1,16 @@
+from visual import *
+from math import *
+from random import *
+
+x0=1
+y0=0
+z0=0
+my_ell = ellipsoid(pos=vector(x0,y0,z0), radius=0.5, color = color.yellow,length=7, height=1, width=2)
+my_ring = ring(pos=vector(4.3,0,0), axis=(1,0,0), radius=0.5, thickness=0.25 , color = color.yellow)
+my_ring = ring(pos=vector(-1,0,0), axis=(1,0,0), radius=0.5, thickness=0.04 , color = color.orange)
+my_ring = ring(pos=vector(2,0,0), axis=(1,0,0), radius=0.5, thickness=0.04 , color = color.orange)
+my_box = box(pos=vector(1.1,0,1.1),length=1, height=0.5, width=0.3 , color = color.green)
+my_box = box(pos=vector(1.1,0,-1.1),length=1, height=0.5, width=0.3 , color = color.green)
+
+
+
